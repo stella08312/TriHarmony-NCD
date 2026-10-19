@@ -1,0 +1,70 @@
+{
+  "mvtec": {
+    "screw": {
+      "known_k": 5,
+      "sample_count": 119
+    },
+    "zipper": {
+      "known_k": 6,
+      "sample_count": 103
+    },
+    "tile": {
+      "known_k": 5,
+      "sample_count": 84
+    },
+    "transistor": {
+      "known_k": 4,
+      "sample_count": 40
+    },
+    "metal_nut": {
+      "known_k": 4,
+      "sample_count": 93
+    },
+    "leather": {
+      "known_k": 5,
+      "sample_count": 92
+    },
+    "pill": {
+      "known_k": 6,
+      "sample_count": 124
+    },
+    "cable": {
+      "known_k": 7,
+      "sample_count": 81
+    },
+    "toothbrush": {
+      "known_k": 1,
+      "sample_count": 30
+    },
+    "wood": {
+      "known_k": 4,
+      "sample_count": 49
+    },
+    "grid": {
+      "known_k": 5,
+      "sample_count": 57
+    },
+    "bottle": {
+      "known_k": 3,
+      "sample_count": 63
+    },
+    "hazelnut": {
+      "known_k": 4,
+      "sample_count": 70
+    },
+    "capsule": {
+      "known_k": 5,
+      "sample_count": 109
+    },
+    "carpet": {
+      "known_k": 5,
+      "sample_count": 89
+    }
+  },
+  "mtd": {
+    "MTD": {
+      "known_k": 5,
+      "sample_count": 392
+    }
+  }
+}

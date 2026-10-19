@@ -1,0 +1,30 @@
+{
+  "schema_version": 1,
+  "method": "TriHarmony-Full-v14",
+  "seed": 42,
+  "epochs": 40,
+  "optimizer": "AdamW",
+  "learning_rate": 0.001,
+  "weight_decay": 0.001,
+  "source_batch_size": 32,
+  "target_batch_size": 32,
+  "loss_weights": {
+    "source_supervised_relation": 1.0,
+    "target_scale_normalized_heldout_prediction": 1.0,
+    "target_deletion_persistence_transport": 1.0,
+    "target_known_k_spectral_capacity": 1.0
+  },
+  "source_target_parallel_fraction": 0.75,
+  "source_orthogonal_retention": 0.25,
+  "source_split_minimum_cross_evidence_ari": 0.95,
+  "runtime": {
+    "profile": "historical_v14",
+    "torch_cpu_threads": 96,
+    "clear_blas_thread_overrides": true,
+    "deterministic_cudnn": true,
+    "allow_tf32": false
+  },
+  "cohort_policy": "anomalous_only",
+  "known_k_policy": "supplied_a_priori",
+  "evaluation_labels_allowed_in_training": false
+}
